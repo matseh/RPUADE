@@ -1,0 +1,543 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		90B2991325FCD36D00C3D5D2 /* md-support.c in Sources */ = {isa = PBXBuildFile; fileRef = 90B298FC25FCD36D00C3D5D2 /* md-support.c */; };
+		90B2991425FCD36D00C3D5D2 /* cfgfile.c in Sources */ = {isa = PBXBuildFile; fileRef = 90B298FD25FCD36D00C3D5D2 /* cfgfile.c */; };
+		90B2991625FCD36D00C3D5D2 /* newcpu.c in Sources */ = {isa = PBXBuildFile; fileRef = 90B298FF25FCD36D00C3D5D2 /* newcpu.c */; };
+		90B2991725FCD36D00C3D5D2 /* sinctable.c in Sources */ = {isa = PBXBuildFile; fileRef = 90B2990125FCD36D00C3D5D2 /* sinctable.c */; };
+		90B2991925FCD36D00C3D5D2 /* audio.c in Sources */ = {isa = PBXBuildFile; fileRef = 90B2990325FCD36D00C3D5D2 /* audio.c */; };
+		90B2991A25FCD36D00C3D5D2 /* missing.c in Sources */ = {isa = PBXBuildFile; fileRef = 90B2990425FCD36D00C3D5D2 /* missing.c */; };
+		90B2991B25FCD36D00C3D5D2 /* debug.c in Sources */ = {isa = PBXBuildFile; fileRef = 90B2990525FCD36D00C3D5D2 /* debug.c */; };
+		90B2991C25FCD36D00C3D5D2 /* sd-sound-generic.c in Sources */ = {isa = PBXBuildFile; fileRef = 90B2990625FCD36D00C3D5D2 /* sd-sound-generic.c */; };
+		90B2991D25FCD36D00C3D5D2 /* compiler.c in Sources */ = {isa = PBXBuildFile; fileRef = 90B2990825FCD36D00C3D5D2 /* compiler.c */; };
+		90B2991E25FCD36D00C3D5D2 /* text_scope.c in Sources */ = {isa = PBXBuildFile; fileRef = 90B2990925FCD36D00C3D5D2 /* text_scope.c */; };
+		90B2991F25FCD36D00C3D5D2 /* custom.c in Sources */ = {isa = PBXBuildFile; fileRef = 90B2990A25FCD36D00C3D5D2 /* custom.c */; };
+		90B2992025FCD36D00C3D5D2 /* fpp.c in Sources */ = {isa = PBXBuildFile; fileRef = 90B2990B25FCD36D00C3D5D2 /* fpp.c */; };
+		90B2992125FCD36D00C3D5D2 /* memory.c in Sources */ = {isa = PBXBuildFile; fileRef = 90B2990C25FCD36D00C3D5D2 /* memory.c */; };
+		90B2992225FCD36D00C3D5D2 /* readcpu.c in Sources */ = {isa = PBXBuildFile; fileRef = 90B2990D25FCD36D00C3D5D2 /* readcpu.c */; };
+		90B2992325FCD36D00C3D5D2 /* uade.c in Sources */ = {isa = PBXBuildFile; fileRef = 90B2990E25FCD36D00C3D5D2 /* uade.c */; };
+		90B2992425FCD36D00C3D5D2 /* cia.c in Sources */ = {isa = PBXBuildFile; fileRef = 90B2990F25FCD36D00C3D5D2 /* cia.c */; };
+		90B2992525FCD36D00C3D5D2 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 90B2991025FCD36D00C3D5D2 /* main.c */; };
+		90B2992625FCD36D00C3D5D2 /* uademain.c in Sources */ = {isa = PBXBuildFile; fileRef = 90B2991125FCD36D00C3D5D2 /* uademain.c */; };
+		90B2995025FCEDFF00C3D5D2 /* cpustbl.c in Sources */ = {isa = PBXBuildFile; fileRef = 90B2994D25FCEDFF00C3D5D2 /* cpustbl.c */; };
+		90B2995125FCEDFF00C3D5D2 /* cpuemu.c in Sources */ = {isa = PBXBuildFile; fileRef = 90B2994E25FCEDFF00C3D5D2 /* cpuemu.c */; };
+		90B2995225FCEDFF00C3D5D2 /* cpudefs.c in Sources */ = {isa = PBXBuildFile; fileRef = 90B2994F25FCEDFF00C3D5D2 /* cpudefs.c */; };
+		90B2995725FCEEE600C3D5D2 /* uadeipc.c in Sources */ = {isa = PBXBuildFile; fileRef = 90B2995625FCEEE600C3D5D2 /* uadeipc.c */; };
+		90B2995A25FCEF7700C3D5D2 /* unixatomic.c in Sources */ = {isa = PBXBuildFile; fileRef = 90B2995925FCEF7700C3D5D2 /* unixatomic.c */; };
+		90B2995D25FCEFC800C3D5D2 /* uadeutils.c in Sources */ = {isa = PBXBuildFile; fileRef = 90B2995C25FCEFC800C3D5D2 /* uadeutils.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		90B2927B25FCCD3900C3D5D2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		90B2927D25FCCD3900C3D5D2 /* RPUADE */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = RPUADE; sourceTree = BUILT_PRODUCTS_DIR; };
+		90B2928925FCCE8700C3D5D2 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		90B298FC25FCD36D00C3D5D2 /* md-support.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = "md-support.c"; path = "Source/uade/src/md-support.c"; sourceTree = SOURCE_ROOT; };
+		90B298FD25FCD36D00C3D5D2 /* cfgfile.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = cfgfile.c; path = Source/uade/src/cfgfile.c; sourceTree = SOURCE_ROOT; };
+		90B298FE25FCD36D00C3D5D2 /* gencpu.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = gencpu.c; path = Source/uade/src/gencpu.c; sourceTree = SOURCE_ROOT; };
+		90B298FF25FCD36D00C3D5D2 /* newcpu.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = newcpu.c; path = Source/uade/src/newcpu.c; sourceTree = SOURCE_ROOT; };
+		90B2990025FCD36D00C3D5D2 /* sd-sound-generic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "sd-sound-generic.h"; path = "Source/uade/src/sd-sound-generic.h"; sourceTree = SOURCE_ROOT; };
+		90B2990125FCD36D00C3D5D2 /* sinctable.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = sinctable.c; path = Source/uade/src/sinctable.c; sourceTree = SOURCE_ROOT; };
+		90B2990225FCD36D00C3D5D2 /* build68k.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = build68k.c; path = Source/uade/src/build68k.c; sourceTree = SOURCE_ROOT; };
+		90B2990325FCD36D00C3D5D2 /* audio.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = audio.c; path = Source/uade/src/audio.c; sourceTree = SOURCE_ROOT; };
+		90B2990425FCD36D00C3D5D2 /* missing.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = missing.c; path = Source/uade/src/missing.c; sourceTree = SOURCE_ROOT; };
+		90B2990525FCD36D00C3D5D2 /* debug.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = debug.c; path = Source/uade/src/debug.c; sourceTree = SOURCE_ROOT; };
+		90B2990625FCD36D00C3D5D2 /* sd-sound-generic.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = "sd-sound-generic.c"; path = "Source/uade/src/sd-sound-generic.c"; sourceTree = SOURCE_ROOT; };
+		90B2990725FCD36D00C3D5D2 /* target.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = target.h; path = Source/uade/src/target.h; sourceTree = SOURCE_ROOT; };
+		90B2990825FCD36D00C3D5D2 /* compiler.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = compiler.c; path = Source/uade/src/compiler.c; sourceTree = SOURCE_ROOT; };
+		90B2990925FCD36D00C3D5D2 /* text_scope.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = text_scope.c; path = Source/uade/src/text_scope.c; sourceTree = SOURCE_ROOT; };
+		90B2990A25FCD36D00C3D5D2 /* custom.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = custom.c; path = Source/uade/src/custom.c; sourceTree = SOURCE_ROOT; };
+		90B2990B25FCD36D00C3D5D2 /* fpp.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = fpp.c; path = Source/uade/src/fpp.c; sourceTree = SOURCE_ROOT; };
+		90B2990C25FCD36D00C3D5D2 /* memory.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = memory.c; path = Source/uade/src/memory.c; sourceTree = SOURCE_ROOT; };
+		90B2990D25FCD36D00C3D5D2 /* readcpu.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = readcpu.c; path = Source/uade/src/readcpu.c; sourceTree = SOURCE_ROOT; };
+		90B2990E25FCD36D00C3D5D2 /* uade.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = uade.c; path = Source/uade/src/uade.c; sourceTree = SOURCE_ROOT; };
+		90B2990F25FCD36D00C3D5D2 /* cia.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = cia.c; path = Source/uade/src/cia.c; sourceTree = SOURCE_ROOT; };
+		90B2991025FCD36D00C3D5D2 /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = main.c; path = Source/uade/src/main.c; sourceTree = SOURCE_ROOT; };
+		90B2991125FCD36D00C3D5D2 /* uademain.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = uademain.c; path = Source/uade/src/uademain.c; sourceTree = SOURCE_ROOT; };
+		90B2991225FCD36D00C3D5D2 /* sysconfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = sysconfig.h; path = Source/uade/src/sysconfig.h; sourceTree = SOURCE_ROOT; };
+		90B2992925FCD51400C3D5D2 /* memory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = memory.h; path = uade/src/include/memory.h; sourceTree = "<group>"; };
+		90B2992A25FCD51400C3D5D2 /* compiler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = compiler.h; path = uade/src/include/compiler.h; sourceTree = "<group>"; };
+		90B2992B25FCD51400C3D5D2 /* cia.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = cia.h; path = uade/src/include/cia.h; sourceTree = "<group>"; };
+		90B2992C25FCD51400C3D5D2 /* custom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = custom.h; path = uade/src/include/custom.h; sourceTree = "<group>"; };
+		90B2992D25FCD51400C3D5D2 /* newcpu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = newcpu.h; path = uade/src/include/newcpu.h; sourceTree = "<group>"; };
+		90B2992E25FCD51400C3D5D2 /* execlib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = execlib.h; path = uade/src/include/execlib.h; sourceTree = "<group>"; };
+		90B2992F25FCD51400C3D5D2 /* audio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = audio.h; path = uade/src/include/audio.h; sourceTree = "<group>"; };
+		90B2993025FCD51400C3D5D2 /* debug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = debug.h; path = uade/src/include/debug.h; sourceTree = "<group>"; };
+		90B2993125FCD51400C3D5D2 /* gensound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = gensound.h; path = uade/src/include/gensound.h; sourceTree = "<group>"; };
+		90B2993225FCD51400C3D5D2 /* readcpu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = readcpu.h; path = uade/src/include/readcpu.h; sourceTree = "<group>"; };
+		90B2993325FCD51400C3D5D2 /* events.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = events.h; path = uade/src/include/events.h; sourceTree = "<group>"; };
+		90B2993425FCD51400C3D5D2 /* sinctable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = sinctable.h; path = uade/src/include/sinctable.h; sourceTree = "<group>"; };
+		90B2993525FCD51400C3D5D2 /* osemu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = osemu.h; path = uade/src/include/osemu.h; sourceTree = "<group>"; };
+		90B2993625FCD51400C3D5D2 /* sysdeps.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = sysdeps.h; path = uade/src/include/sysdeps.h; sourceTree = "<group>"; };
+		90B2993725FCD51400C3D5D2 /* commpipe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = commpipe.h; path = uade/src/include/commpipe.h; sourceTree = "<group>"; };
+		90B2993825FCD51400C3D5D2 /* amigamsg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = amigamsg.h; path = uade/src/include/amigamsg.h; sourceTree = "<group>"; };
+		90B2993925FCD51400C3D5D2 /* options.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = options.h; path = uade/src/include/options.h; sourceTree = "<group>"; };
+		90B2993A25FCD51400C3D5D2 /* uadectl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = uadectl.h; path = uade/src/include/uadectl.h; sourceTree = "<group>"; };
+		90B2993B25FCD51400C3D5D2 /* text_scope.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = text_scope.h; path = uade/src/include/text_scope.h; sourceTree = "<group>"; };
+		90B2993C25FCD51400C3D5D2 /* uae.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = uae.h; path = uade/src/include/uae.h; sourceTree = "<group>"; };
+		90B2994D25FCEDFF00C3D5D2 /* cpustbl.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = cpustbl.c; path = Source/uade/src/cpustbl.c; sourceTree = SOURCE_ROOT; };
+		90B2994E25FCEDFF00C3D5D2 /* cpuemu.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = cpuemu.c; path = Source/uade/src/cpuemu.c; sourceTree = SOURCE_ROOT; };
+		90B2994F25FCEDFF00C3D5D2 /* cpudefs.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = cpudefs.c; path = Source/uade/src/cpudefs.c; sourceTree = SOURCE_ROOT; };
+		90B2995625FCEEE600C3D5D2 /* uadeipc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = uadeipc.c; path = Source/uade/src/frontends/common/uadeipc.c; sourceTree = SOURCE_ROOT; };
+		90B2995925FCEF7700C3D5D2 /* unixatomic.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = unixatomic.c; path = Source/uade/src/frontends/common/unixatomic.c; sourceTree = SOURCE_ROOT; };
+		90B2995C25FCEFC800C3D5D2 /* uadeutils.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = uadeutils.c; path = Source/uade/src/frontends/common/uadeutils.c; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		90B2927A25FCCD3900C3D5D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		90B2927425FCCD3900C3D5D2 = {
+			isa = PBXGroup;
+			children = (
+				90B2928925FCCE8700C3D5D2 /* README.md */,
+				90B2927F25FCCD3900C3D5D2 /* Source */,
+				90B2927E25FCCD3900C3D5D2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		90B2927E25FCCD3900C3D5D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				90B2927D25FCCD3900C3D5D2 /* RPUADE */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		90B2927F25FCCD3900C3D5D2 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				90B298F925FCD2B400C3D5D2 /* uade */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		90B298F925FCD2B400C3D5D2 /* uade */ = {
+			isa = PBXGroup;
+			children = (
+				90B298FA25FCD2CE00C3D5D2 /* src */,
+			);
+			name = uade;
+			sourceTree = "<group>";
+		};
+		90B298FA25FCD2CE00C3D5D2 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				90B2995425FCEEB100C3D5D2 /* frontends */,
+				90B2994F25FCEDFF00C3D5D2 /* cpudefs.c */,
+				90B2994E25FCEDFF00C3D5D2 /* cpuemu.c */,
+				90B2994D25FCEDFF00C3D5D2 /* cpustbl.c */,
+				90B2992825FCD48C00C3D5D2 /* include */,
+				90B2990325FCD36D00C3D5D2 /* audio.c */,
+				90B2990225FCD36D00C3D5D2 /* build68k.c */,
+				90B298FD25FCD36D00C3D5D2 /* cfgfile.c */,
+				90B2990F25FCD36D00C3D5D2 /* cia.c */,
+				90B2990825FCD36D00C3D5D2 /* compiler.c */,
+				90B2990A25FCD36D00C3D5D2 /* custom.c */,
+				90B2990525FCD36D00C3D5D2 /* debug.c */,
+				90B2990B25FCD36D00C3D5D2 /* fpp.c */,
+				90B298FE25FCD36D00C3D5D2 /* gencpu.c */,
+				90B2991025FCD36D00C3D5D2 /* main.c */,
+				90B298FC25FCD36D00C3D5D2 /* md-support.c */,
+				90B2990C25FCD36D00C3D5D2 /* memory.c */,
+				90B2990425FCD36D00C3D5D2 /* missing.c */,
+				90B298FF25FCD36D00C3D5D2 /* newcpu.c */,
+				90B2990D25FCD36D00C3D5D2 /* readcpu.c */,
+				90B2990625FCD36D00C3D5D2 /* sd-sound-generic.c */,
+				90B2990025FCD36D00C3D5D2 /* sd-sound-generic.h */,
+				90B2990125FCD36D00C3D5D2 /* sinctable.c */,
+				90B2991225FCD36D00C3D5D2 /* sysconfig.h */,
+				90B2990725FCD36D00C3D5D2 /* target.h */,
+				90B2990925FCD36D00C3D5D2 /* text_scope.c */,
+				90B2990E25FCD36D00C3D5D2 /* uade.c */,
+				90B2991125FCD36D00C3D5D2 /* uademain.c */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		90B2992825FCD48C00C3D5D2 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				90B2993825FCD51400C3D5D2 /* amigamsg.h */,
+				90B2992F25FCD51400C3D5D2 /* audio.h */,
+				90B2992B25FCD51400C3D5D2 /* cia.h */,
+				90B2993725FCD51400C3D5D2 /* commpipe.h */,
+				90B2992A25FCD51400C3D5D2 /* compiler.h */,
+				90B2992C25FCD51400C3D5D2 /* custom.h */,
+				90B2993025FCD51400C3D5D2 /* debug.h */,
+				90B2993325FCD51400C3D5D2 /* events.h */,
+				90B2992E25FCD51400C3D5D2 /* execlib.h */,
+				90B2993125FCD51400C3D5D2 /* gensound.h */,
+				90B2992925FCD51400C3D5D2 /* memory.h */,
+				90B2992D25FCD51400C3D5D2 /* newcpu.h */,
+				90B2993925FCD51400C3D5D2 /* options.h */,
+				90B2993525FCD51400C3D5D2 /* osemu.h */,
+				90B2993225FCD51400C3D5D2 /* readcpu.h */,
+				90B2993425FCD51400C3D5D2 /* sinctable.h */,
+				90B2993625FCD51400C3D5D2 /* sysdeps.h */,
+				90B2993B25FCD51400C3D5D2 /* text_scope.h */,
+				90B2993A25FCD51400C3D5D2 /* uadectl.h */,
+				90B2993C25FCD51400C3D5D2 /* uae.h */,
+			);
+			name = include;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		90B2995425FCEEB100C3D5D2 /* frontends */ = {
+			isa = PBXGroup;
+			children = (
+				90B2995525FCEECA00C3D5D2 /* common */,
+			);
+			name = frontends;
+			sourceTree = "<group>";
+		};
+		90B2995525FCEECA00C3D5D2 /* common */ = {
+			isa = PBXGroup;
+			children = (
+				90B2995C25FCEFC800C3D5D2 /* uadeutils.c */,
+				90B2995925FCEF7700C3D5D2 /* unixatomic.c */,
+				90B2995625FCEEE600C3D5D2 /* uadeipc.c */,
+			);
+			path = common;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		90B2927C25FCCD3900C3D5D2 /* RPUADE */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90B2928425FCCD3900C3D5D2 /* Build configuration list for PBXNativeTarget "RPUADE" */;
+			buildPhases = (
+				90F87E1526075A4B00493E38 /* Configure UADE */,
+				90B2994A25FCEAC200C3D5D2 /* Generate CPU Emulator Sources */,
+				90B2927925FCCD3900C3D5D2 /* Sources */,
+				90B2927A25FCCD3900C3D5D2 /* Frameworks */,
+				90B2927B25FCCD3900C3D5D2 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RPUADE;
+			productName = RPUADE;
+			productReference = 90B2927D25FCCD3900C3D5D2 /* RPUADE */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		90B2927525FCCD3900C3D5D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					90B2927C25FCCD3900C3D5D2 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 90B2927825FCCD3900C3D5D2 /* Build configuration list for PBXProject "RPUADE" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 90B2927425FCCD3900C3D5D2;
+			productRefGroup = 90B2927E25FCCD3900C3D5D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				90B2927C25FCCD3900C3D5D2 /* RPUADE */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		90B2994A25FCEAC200C3D5D2 /* Generate CPU Emulator Sources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(PROJECT_DIR)/Source/uade/src/Makefile",
+			);
+			name = "Generate CPU Emulator Sources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(PROJECT_DIR)/Source/uade/src/cpuemu.c",
+				"$(PROJECT_DIR)/Source/uade/src/cpustbl.c",
+				"$(PROJECT_DIR)/Source/uade/src/cputbl.h",
+				"$(PROJECT_DIR)/Source/uade/src/cpudefs.c",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C Source/uade/src cpuemu.c cpustbl.c cputbl.h\n";
+		};
+		90F87E1526075A4B00493E38 /* Configure UADE */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Configure UADE";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(PROJECT_DIR)/Source/uade/src/Makefile",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cd Source/uade\nif [ ! -f src/Makefile ] ; then\n    ./configure --only-uadecore\n    sed 's/{CC}/clang/g;s/{NATIVECC}/clang/g;s/{ARCHFLAGS}/-m64/g;s/{ARCHLIBS}//g;s/{DEBUGFLAGS}//g;s/{SOUNDHEADER}/sd-sound-generic.h/g;s/{SOUNDSOURCE}/sd-sound-generic.c/g;' src/Makefile.in >src/Makefile\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		90B2927925FCCD3900C3D5D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90B2992525FCD36D00C3D5D2 /* main.c in Sources */,
+				90B2991425FCD36D00C3D5D2 /* cfgfile.c in Sources */,
+				90B2995A25FCEF7700C3D5D2 /* unixatomic.c in Sources */,
+				90B2991B25FCD36D00C3D5D2 /* debug.c in Sources */,
+				90B2992325FCD36D00C3D5D2 /* uade.c in Sources */,
+				90B2992125FCD36D00C3D5D2 /* memory.c in Sources */,
+				90B2991D25FCD36D00C3D5D2 /* compiler.c in Sources */,
+				90B2991C25FCD36D00C3D5D2 /* sd-sound-generic.c in Sources */,
+				90B2992625FCD36D00C3D5D2 /* uademain.c in Sources */,
+				90B2991325FCD36D00C3D5D2 /* md-support.c in Sources */,
+				90B2992425FCD36D00C3D5D2 /* cia.c in Sources */,
+				90B2991A25FCD36D00C3D5D2 /* missing.c in Sources */,
+				90B2995125FCEDFF00C3D5D2 /* cpuemu.c in Sources */,
+				90B2995225FCEDFF00C3D5D2 /* cpudefs.c in Sources */,
+				90B2992025FCD36D00C3D5D2 /* fpp.c in Sources */,
+				90B2991925FCD36D00C3D5D2 /* audio.c in Sources */,
+				90B2991F25FCD36D00C3D5D2 /* custom.c in Sources */,
+				90B2991E25FCD36D00C3D5D2 /* text_scope.c in Sources */,
+				90B2991725FCD36D00C3D5D2 /* sinctable.c in Sources */,
+				90B2995725FCEEE600C3D5D2 /* uadeipc.c in Sources */,
+				90B2991625FCD36D00C3D5D2 /* newcpu.c in Sources */,
+				90B2995025FCEDFF00C3D5D2 /* cpustbl.c in Sources */,
+				90B2992225FCD36D00C3D5D2 /* readcpu.c in Sources */,
+				90B2995D25FCEFC800C3D5D2 /* uadeutils.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		90B2928225FCCD3900C3D5D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		90B2928325FCCD3900C3D5D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		90B2928525FCCD3900C3D5D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 37X379TU43;
+				ENABLE_HARDENED_RUNTIME = YES;
+				HEADER_SEARCH_PATHS = (
+					"$PROJECT_DIR/Source/uade/src/**",
+					$PROJECT_DIR/Source/uade/src/include,
+					"$PROJECT_DIR/Source/uade/src/frontends/include/**",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Source/uade\\ copy/amigasrc/players/wanted_team/PeterVerswyvelenPacker/src",
+					"$(PROJECT_DIR)/Source/uade\\ copy/amigasrc/players/med/common",
+					"$(PROJECT_DIR)/Source/uade\\ copy/amigasrc/players/med/common",
+					"$(PROJECT_DIR)/Source/uade\\ copy/amigasrc/players/med/common",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		90B2928625FCCD3900C3D5D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 37X379TU43;
+				ENABLE_HARDENED_RUNTIME = YES;
+				HEADER_SEARCH_PATHS = (
+					"$PROJECT_DIR/Source/uade/src/**",
+					$PROJECT_DIR/Source/uade/src/include,
+					"$PROJECT_DIR/Source/uade/src/frontends/include/**",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Source/uade\\ copy/amigasrc/players/wanted_team/PeterVerswyvelenPacker/src",
+					"$(PROJECT_DIR)/Source/uade\\ copy/amigasrc/players/med/common",
+					"$(PROJECT_DIR)/Source/uade\\ copy/amigasrc/players/med/common",
+					"$(PROJECT_DIR)/Source/uade\\ copy/amigasrc/players/med/common",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		90B2927825FCCD3900C3D5D2 /* Build configuration list for PBXProject "RPUADE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90B2928225FCCD3900C3D5D2 /* Debug */,
+				90B2928325FCCD3900C3D5D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90B2928425FCCD3900C3D5D2 /* Build configuration list for PBXNativeTarget "RPUADE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90B2928525FCCD3900C3D5D2 /* Debug */,
+				90B2928625FCCD3900C3D5D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 90B2927525FCCD3900C3D5D2 /* Project object */;
+}
