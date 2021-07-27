@@ -252,7 +252,7 @@
 		90B2927525FCCD3900C3D5D2 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1240;
+				LastUpgradeCheck = 1250;
 				TargetAttributes = {
 					90B2927C25FCCD3900C3D5D2 = {
 						CreatedOnToolsVersion = 12.4;
@@ -471,6 +471,7 @@
 		90B2928525FCCD3900C3D5D2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 37X379TU43;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -495,6 +496,7 @@
 		90B2928625FCCD3900C3D5D2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 37X379TU43;
 				ENABLE_HARDENED_RUNTIME = YES;
